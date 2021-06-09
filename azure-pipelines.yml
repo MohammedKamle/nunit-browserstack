@@ -32,7 +32,8 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-- task: BrowserStackStopLocal@0
 - task: BrowserStackResults@0
+- task: BrowserStackStopLocal@0
+
 
 
