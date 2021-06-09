@@ -20,7 +20,7 @@ steps:
   displayName: 'BrowserStack configuration setup'
   inputs:
     BrowserStackServiceEndPoint: 'BrowserStack Conn'
-    browserstackLocal: true
+    browserstackLocal: false
 
     
 - task: VSTest@2
